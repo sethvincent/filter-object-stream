@@ -1,0 +1,22 @@
+{
+  "name": "filter-object-stream",
+  "description": "",
+  "version": "0.0.1",
+  "repository": {
+    "url": "git://github.com/sethvincent/filter-object-stream.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js | tap-spec"
+  },
+  "dependencies": {
+    "isarray": "0.0.1"
+  },
+  "devDependencies": {
+    "levelup": "^1.1.1",
+    "memdown": "^1.0.0",
+    "tap-spec": "^4.0.0",
+    "tape": "^4.0.0",
+    "through2": "^0.6.5"
+  }
+}
